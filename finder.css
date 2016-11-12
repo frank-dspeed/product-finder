@@ -62,7 +62,7 @@
     background: rgba(60, 60, 60, 0.9); 
     background-image: url(http://rmnw.chompetence.ch/images/productfinder/finder_background_choose_age.gif);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: local;
     background-position: right;
 	
 }
@@ -73,7 +73,7 @@
     background: rgba(60, 60, 60, 0.7); 
     background-image: url(http://rmnw.chompetence.ch/images/productfinder/finder_background_choose_gender.gif);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: local;
     background-position: left;
 }
 
@@ -90,7 +90,7 @@
     background: rgba(60, 60, 60, 0.6); 
     background-image: url(http://rmnw.chompetence.ch/images/productfinder/finder_background_problem.gif);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: local;
     background-position: right;
 }
 
