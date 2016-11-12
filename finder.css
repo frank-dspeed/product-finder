@@ -60,7 +60,7 @@
     text-align: left;
     height: 350px; 
     background: rgba(60, 60, 60, 0.9); 
-    background-image: url(/images/productfinder/finder_background_choose_age.gif);
+    background-image: url(http://rmnw.chompetence.ch/images/productfinder/finder_background_choose_age.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
@@ -71,7 +71,7 @@
     text-align: right;
     height: 350px; 
     background: rgba(60, 60, 60, 0.7); 
-    background-image: url(/images/productfinder/finder_background_choose_gender.gif);
+    background-image: url(http://rmnw.chompetence.ch/images/productfinder/finder_background_choose_gender.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left;
@@ -81,14 +81,14 @@
     text-align: center;
     height: 350px; 
     background: rgba(60, 60, 60, 0.5); 
-    background-image: url(/images/productfinder/finder_background_pregnant.gif);
+    background-image: url(http://rmnw.chompetence.ch/images/productfinder/finder_background_pregnant.gif);
 }
 
 #problems {
     text-align: left;
     height: 430px; 
     background: rgba(60, 60, 60, 0.6); 
-    background-image: url(/images/productfinder/finder_background_problem.gif);
+    background-image: url(http://rmnw.chompetence.ch/images/productfinder/finder_background_problem.gif);
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
