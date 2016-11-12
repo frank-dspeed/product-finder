@@ -1,1 +1,1 @@
-# product-finder
+# product-finder v1.0
