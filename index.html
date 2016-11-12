@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unbenanntes Dokument</title>
+</head>
+
+<body>
+<link rel="stylesheet" href="http://rawgit.com/frank-dspeed/product-finder/master/finder.css">
+<script language="javascript" type="text/javascript" src="http://rawgit.com/frank-dspeed/product-finder/master/finder.js"></script>
+<div class="uk-grid uk-grid-collapse">
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-panel-box uk-panel-box-primary">
+      <div class="uk-container uk-container-center">
+        <div class="uk-h2" style="text-align: center; color: white; font-size: 35px;" property="question_age">FIND YOUR PERFECT<br />
+          <span class="uk-h1" style="font-size: 50px; line-height: 50px;">BLOOD PRESSURE MONITOR</span></div>
+        <div class="uk-width-2-3 uk-container-center uk-margin-top"> <a id="startQuestions" href="#" class="btn btn-large" style="padding: 10px 30px; font-size: 20px; border-radius: 20px; margin-top: 30px; margin-bottom: 30px; background: #ffffff;" data-uk-smooth-scroll="{offset: 120}">Let´s start</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="questions" style="display: none;">
+<div id="finder-age" class="uk-grid uk-grid-collapse">
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-margin-large-top uk-margin-large-bottom">
+      <div class="uk-container uk-container-center">
+        <div class="uk-h2 hage">Please choose your age group</div>
+        <div class="uk-grid" style="padding-top: 20px;">
+          <div class="uk-width-1-1" style="" data-next="#finder-gender">
+            <input id="question1" name="age" type="radio" class="with-image age" value="sel" />
+            <label for="question1">12-45</label>
+          </div>
+          <div class="uk-width-1-1" style="" data-next="#finder-gender">
+            <input id="question2" name="age" type="radio" class="with-image age" value="sel"/>
+            <label for="question2">45-55</label>
+          </div>
+          <div class="uk-width-1-1" >
+            <input id="question3" name="age" type="radio" class="with-image age" value="sel"/>
+            <label for="question3">55 above</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="gender" class="uk-grid uk-grid-collapse">
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-margin-large-top uk-margin-large-bottom">
+      <div class="uk-container uk-container-center">
+        <div class="uk-h2 hgen">Please choose your gender</div>
+        <div class="uk-grid" style="padding-top: 20px;">
+          <div class="uk-width-1-1"  data-next="#finder-problems">
+            <input id="male" name="gender" type="radio" class="with-image gender" value="sel" />
+            <label for="male">Male</label>
+          </div>
+          <div class="uk-width-1-1">
+            <input id="female" name="gender" type="radio" class="with-image gender" value="sel"/>
+            <label for="female">Female</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pregnant" style="display: block;" class="uk-grid uk-grid-collapse">
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-margin-large-top uk-margin-large-bottom">
+      <div class="uk-container uk-container-center" style="uk-text-large uk-margin-remove tm-form-line-height uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-left" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:800}">
+        <div class="uk-h2 hpreg">Are you pregnant?</div>
+        <div class="uk-grid" style="padding-top: 20px;">
+          <div class="uk-width-1-1"  data-next="#finder-problems">
+            <input id="ispregnant" name="pregnant" type="radio" class="with-image pregnant" value="sel" />
+            <label for="ispregnant">Yes</label>
+          </div>
+          <div class="uk-width-1-1"  data-next="#finder-problems">
+            <input id="notpreg" name="pregnant" type="radio" class="with-image pregnant" value="sel"/>
+            <label for="notpreg">No</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="problems" class="uk-grid uk-grid-collapse">
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-margin-large-top uk-margin-large-bottom">
+      <div class="uk-container uk-container-center">
+        <div class="uk-h2">Do you have one of the following problems?</div>
+        <div class="uk-grid" style="padding-top: 20px;">
+          <div class="uk-width-1-1"  >
+            <div class="uk-width-1-1"  >
+              <input id="cardiac" type="checkbox" name="problems" class="with-image problems" val="sel" />
+              <label for="cardiac">Cardiac problems (e.g. Arrhythmia)</label>
+            </div>
+            <div class="uk-width-1-1"  >
+              <input id="bloodpresure" type="checkbox" name="problems" class="with-image problems" val="sel" />
+              <label for="bloodpresure">High blood pressure (Hypertension)</label>
+            </div>
+            <div class="uk-width-1-1"  >
+              <input id="diabetes" type="checkbox" name="problems" class="with-image problems" val="sel" />
+              <label for="diabetes">Diabetes</label>
+            </div>
+            <div class="uk-width-1-1"  >
+              <input id="noprobs" type="checkbox" name="problems" class="with-image problems" val="sel" />
+              <label for="noprobs">none of them</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="evaluate" class="uk-grid uk-grid-collapse"  style="background: rgba(60, 60, 60, 0.1);">
+  <div class="uk-width-medium-1-1">
+    <div class="uk-panel uk-margin-large-top uk-margin-large-bottom">
+      <button class="uk-button uk-button-large uk-button-primary evaluate" disabled> Evaluate </button>
+    </div>
+  </div>
+  <div id="status"></div>
+</div>
+</body>
+</html>
