@@ -107,7 +107,12 @@
 }
 
 
-
+input[type="radio"].with-image {
+    display: none;
+}
+input[type="radio"].with-image:checked + label {
+    border: 1px solid red;
+}
 
 input[type=checkbox].with-image {
 display:none;
