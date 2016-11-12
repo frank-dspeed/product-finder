@@ -1,20 +1,20 @@
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+/* @import url(http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css); */
 
 
 @font-face {
-  font-family: 'form_icons';
-  src:  url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.eot?q8jlag');
-  src:  url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.eot?q8jlag#iefix') format('embedded-opentype'),
-    url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.ttf?q8jlag') format('truetype'),
-    url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.woff?q8jlag') format('woff'),
-    url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.svg?q8jlag#icomoon') format('svg');
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?ln00yh');
+  src:  url('icomoon.eot?ln00yh#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?ln00yh') format('truetype'),
+    url('icomoon.woff?ln00yh') format('woff'),
+    url('icomoon.svg?ln00yh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'form_icons' !important;
+  font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -27,10 +27,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-check_empty:before {
+.icon-rmcheck_empty:before {
   content: "\e9009";
 }
-.icon-checked:before {
+.icon-rmchecked:before {
   content: "\e9010";
 }
 
@@ -149,29 +149,27 @@ input[type=checkbox].with-font {
     
 input[type=radio].with-font ~ label:before,
 input[type=checkbox].with-font ~ label:before {
-  font-family: 'form_icons' !important;
-  content: "\e9009";
-  display: inline-block;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+    font-family: icomoon;
+    display: inline-block;
+    content: "\e9009";
+    letter-spacing: 10px;
+    font-size: 1.1em;
+    color: white;
+    width: 1.4em;
 }
 
 input[type=radio].with-font:checked ~ label:before,
 input[type=checkbox].with-font:checked ~ label:before  {
-    content: "\e9009";
+    content: "\e9010";
     font-size: 2.0em;
     color: darkgreen;
     letter-spacing: 5px;
 }
 input[type=checkbox].with-font ~ label:before {        
-    content: "\f096";
+    content: "\e9009";
 }
 input[type=checkbox].with-font:checked ~ label:before {
-    content: "\f046";        
+    content: "\e9010";        
     color: darkgreen;
 }
 input[type=radio].with-font:focus ~ label:before,
