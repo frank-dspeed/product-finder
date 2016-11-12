@@ -1,0 +1,154 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+
+
+@font-face {
+  font-family: 'form_icons';
+  src:  url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.eot?q8jlag');
+  src:  url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.eot?q8jlag#iefix') format('embedded-opentype'),
+    url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.ttf?q8jlag') format('truetype'),
+    url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.woff?q8jlag') format('woff'),
+    url('http://rmnw.chompetence.ch/sites/rossmax_new/templates/rossmax/fonts/form_icons.svg?q8jlag#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'form_icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check_empty:before {
+  content: "\e9009";
+}
+.icon-checked:before {
+  content: "\e9010";
+}
+
+
+/*** basic styles ***/
+
+
+.uk-h2 { 
+    color: rgba(256, 256, 256, 0.7); 
+    font-size: 2.6em; 
+}
+
+.uk-width-1-1 label { 
+    font-size: 1.8em; 
+    line-height: 70px; 
+    color: white;
+}
+.ukk-container { 
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+#finder-age {
+    text-align: left;
+    height: 350px; 
+    background: rgba(60, 60, 60, 0.9); 
+    background-image: url(/images/productfinder/finder_background_choose_age.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+	
+}
+
+#gender {
+    text-align: right;
+    height: 350px; 
+    background: rgba(60, 60, 60, 0.7); 
+    background-image: url(/images/productfinder/finder_background_choose_gender.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+#pregnant {
+    text-align: center;
+    height: 350px; 
+    background: rgba(60, 60, 60, 0.5); 
+    background-image: url(/images/productfinder/finder_background_pregnant.gif);
+}
+
+#problems {
+    text-align: left;
+    height: 430px; 
+    background: rgba(60, 60, 60, 0.6); 
+    background-image: url(/images/productfinder/finder_background_problem.gif);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+#evaluate {
+    text-align: center;
+}
+
+#evaluate a {
+    color: black; padding: 5px 20px; 
+    font-size: 20px; 
+    border-radius: 20px; 
+    margin-top: 1.5em; 
+    margin-bottom: 1.5em;
+}
+
+input[type=radio].with-font,
+input[type=checkbox].with-font {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+    
+input[type=radio].with-font ~ label:before,
+input[type=checkbox].with-font ~ label:before {
+  font-family: 'form_icons' !important;
+  content: "\e9009";
+  display: inline-block;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+input[type=radio].with-font:checked ~ label:before,
+input[type=checkbox].with-font:checked ~ label:before  {
+    content: "\e9009";
+    font-size: 2.0em;
+    color: darkgreen;
+    letter-spacing: 5px;
+}
+input[type=checkbox].with-font ~ label:before {        
+    content: "\f096";
+}
+input[type=checkbox].with-font:checked ~ label:before {
+    content: "\f046";        
+    color: darkgreen;
+}
+input[type=radio].with-font:focus ~ label:before,
+input[type=checkbox].with-font:focus ~ label:before,
+input[type=radio].with-font:focus ~ label,
+input[type=checkbox].with-font:focus ~ label
+{                
+    color: green;
+}
