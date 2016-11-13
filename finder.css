@@ -177,5 +177,5 @@ input[type=checkbox].with-font:focus ~ label:before,
 input[type=radio].with-font:focus ~ label,
 input[type=checkbox].with-font:focus ~ label
 {                
-    color: green;
+    color: rgba(250, 255, 171, 0.91);
 }
