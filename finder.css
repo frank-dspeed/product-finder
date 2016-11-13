@@ -170,7 +170,7 @@ input[type=checkbox].with-font ~ label:before {
 }
 input[type=checkbox].with-font:checked ~ label:before {
     content: "\e9010";        
-    color: darkgreen;
+    color: rgba(250, 255, 171, 0.91);
 }
 input[type=radio].with-font:focus ~ label:before,
 input[type=checkbox].with-font:focus ~ label:before,
